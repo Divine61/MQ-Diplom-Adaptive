@@ -1,0 +1,1 @@
+# divine-mq-diplom-adaptive
