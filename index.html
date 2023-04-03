@@ -31,13 +31,17 @@
                   <option value="several times a year">Несколько раз в год</option>
                 </select>
               </label>
-              <label class="radio-group">
+              <div class="radio-group">
                 <span class="form-label">Вы подписаны на e-mail рассылку?</span>
-                <input type="radio" name="popup-subscribe" class="popup-subscribe">
-                <span class="radio-text">Да</span>
-                <input type="radio" name="popup-subscribe" class="popup-subscribe">
-                <span class="radio-text">Нет</span>
-              </label>
+                <label>
+                  <input type="radio" name="popup-subscribe" value="Yes" class="popup-subscribe">
+                  <span class="radio-text">Да</span>
+                </label>
+                <label>
+                  <input type="radio" name="popup-subscribe" value="No" class="popup-subscribe">
+                  <span class="radio-text">Нет</span>
+                </label>
+              </div>
             </div>
             <label class="field-group">
               <span class="form-label">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</span>
