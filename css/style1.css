@@ -148,9 +148,9 @@ body {
   background-size: cover;
 }
 
-.popup-subscribe:focus ~ .radio-text::before {
+/* .popup-subscribe:focus ~ .radio-text::before {
   background-image: url(../svg/form-circle.svg);
-}
+} */
 
 .popup-subscribe:checked ~ .radio-text::before {
   background-image: url(../svg/form-circle.svg);
